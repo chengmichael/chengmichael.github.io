@@ -1,10 +1,11 @@
 body {
-  background-color: lightblue;
+  background-color: #CFECFF;
 }
 
 #resume_body {
+  background-color: #FFFFFF;
   font-family: 'Times New Roman';
-  font-size: 18px;
+  font-size: 15px;
   border: 1px solid;
   max-width: 800px;
   margin-left: auto;
@@ -21,45 +22,53 @@ h1 {
 }
 
 h2 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .section {
+  max-width: inherit;
+  margin-left: 10px;
+  margin-right: 10px;
 
 }
 
 .section_title {
-  background-color: grey;
-  font-size: 16px;
+  background-color: #D5DBDB;
+  font-size: 18px;
   font-weight: bold;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 .two_columns {
-  display: table;
+  width: inherit;
+  margin-top: -15px;
 }
 
 .two_columns_bold {
-  display: table;
   font-weight: bold;
+  width: inherit;
+  margin-top: -15px;
+
 }
 
 .left {
   width: 50%;
-  margin-left: 10px;
   float: left;
 }
 
 .right {
-  margin-left: 50%;
-  margin-right: 10px;
-  text-align: right;
   width: 50%;
+  float: right;
+  text-align: right;
 }
 
 .clear{
+  display: table;
   clear: both;
 }
 
 .body_list {
-
+  margin-top: 0px;
+  margin-bottom: 5px;
 }
