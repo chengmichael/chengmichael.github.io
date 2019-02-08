@@ -2,16 +2,26 @@ body {
   background-color: lightblue;
 }
 
-#header {
+#resume_body {
+  font-family: 'Times New Roman';
+  font-size: 18px;
+  border: 1px solid;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+
+#header {
+  text-align: center;
 }
 
 h1 {
-
+  font-size: 22px;
 }
 
 h2 {
-
+  font-size: 16px;
 }
 
 .section {
@@ -19,25 +29,37 @@ h2 {
 }
 
 .section_title {
-
+  background-color: grey;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .two_columns {
-
-}
-
-.left {
-
-}
-
-.right {
-
+  display: table;
 }
 
 .two_columns_bold {
+  display: table;
+  font-weight: bold;
+}
 
+.left {
+  width: 50%;
+  margin-left: 10px;
+  float: left;
+}
+
+.right {
+  margin-left: 50%;
+  margin-right: 10px;
+  text-align: right;
+  width: 50%;
+}
+
+.clear{
+  clear: both;
 }
 
 .body_list {
-  
+
 }
